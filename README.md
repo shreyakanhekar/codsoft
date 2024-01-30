@@ -1,2 +1,2 @@
 # codsoft
-I have completed all 3 tasks of level 1 of web development
+This is the first task of level 1- Shreya's portfolio
