@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+         body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333; /* Default text color */
+        }
+
+        header {
+            background-color: #450a71;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            padding: 2em;
+            margin: 2em 0;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #fff; /* Set text color to white */
+        }
+
+        h2 {
+            color: #fff; /* Set text color to white */
+        }
+
+        p {
+            line-height: 1.6;
+            color: #fff; /* Set text color to white */
+        }
+
+        /* Customize styles for each section */
+        /* Add your own content and styling as needed */
+
+        /* Example: About Section */
+        #about {
+            background-color: #885ba6;
+        }
+        #about h2 {
+            color: #3d0221;
+        }
+        #resume {
+            background-color: #0979a2;
+        }
+        #resume h2 {
+            color: #3d0221;
+        }
+
+        /* Example: Skills Section */
+        #skills {
+            background-color: #885ba6;
+        }
+        #skills h2 {
+            color: #3d0221;
+        }
+
+        /* Example: Projects Section */
+        #projects {
+            background-color: #0979a2;
+        }
+        #projects h2 {
+            color: #3d0221;
+        }
+
+        /* Example: Contacts Section */
+        
+        #contact {
+            background-color: #885ba6;
+        }
+        #contact h2 {
+            color: #3d0221;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>SHREYA KANHEKAR</h1>
+        <p>Web Developer</p>
+    </header>
+
+   
+<section id="about">
+    <div style="display: flex; align-items: center;">
+        <div style="flex: 1;">
+            <h2>About Me</h2>
+            <p>Hello!I am a web development newbie. I am a TY studentent studying information technology at Cummins college of Engineering.</p>
+        </div>
+        <div style="flex: 1; text-align: right;">
+            <!-- Replace the src attribute with the URL or path to your image -->
+            <img src="about.jpg" alt="Your Name's Photo" style="border-radius : 50%; width: 250px; height: 200px;;">
+        </div>
+    </div>
+</section>
+
+
+    </section>
+
+    <section id="resume">
+        
+        <div style="display: flex; align-items: center;">
+            <div style="flex: 1;">
+                <h2>Resume</h2>
+            </div>
+            <div style="flex: 1; text-align: right;">
+                <!-- Replace the src attribute with the URL or path to your image -->
+                <img src="resume_shreya.png" alt="shreya resume" style="border-radius : 0%; width: 400px; height: 500px;;">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        
+
+        <!-- Hard Skills -->
+        <div>
+            <h3>Hard Skills</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>java</li>
+                <li>AI/ML</li>
+                <li>SQL and DBMS</li>
+                <li>OOPS</li>
+            </ul>
+        </div>
+    
+        <!-- Soft Skills -->
+        <div>
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Communication</li>
+                <li>Team Collaboration</li>
+                <li>Problem Solving</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+    
+        <!-- Personal Projects -->
+        <div>
+            <h3>1)Tuition Database Management</h3>
+            <p>-This project aimed to create a simple interface between
+                admin, teacher and student and provide a management
+                system to accept, store, maintain, access and analyze the
+                data .</p>
+                <p>-This system created a secure environment for the
+                initiatives mentioned above.</p>
+                <p >-system also stored the information in digital format
+                rather than in manual form.</p>
+        </div>
+    
+        <!-- Professional Projects -->
+        <div>
+            <h3>2)Car Price Detector</h3>
+            <p>-This project introduced an innovative approach to predict car
+                prices using advanced machine learning techniques.
+                <p> -The core of our system involves the application of machine
+                learning algorithms, specifically regression models, to learn the
+                intricate patterns and relationships within the dataset.</p>
+                <p>  -The project contributes to the field of AI-driven car valuation,
+                providing a valuable tool for both consumers and sellers in
+                making informed decisions within the dynamic automotive
+                marke</p>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+    
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="1" required></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+</body>
+
+</html>
